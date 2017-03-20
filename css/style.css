@@ -242,7 +242,7 @@ header .intro-text {
 	padding: 0 0 60px 0;
 }
 #about2 .section-title {
-	background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
+	background: #444 url(../img/menu-bg2.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
 #about2 .section-title h2 {
@@ -295,7 +295,7 @@ header .intro-text {
 	padding: 0 0 120px 0;
 }
 #what-do-us .section-title {
-	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
+	background: #444 url(../img/gallery-bg2.jpg) center center no-repeat fixed;
 	background-size: cover;
 	margin-bottom: 50px;
 }
@@ -415,7 +415,7 @@ ol.type li a:hover {
 /* Team Section */
 #benefits {
 	color: #fff;
-	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
+	background: #444 url(../img/team-bg2.JPG) center top no-repeat fixed;
 	background-size: cover;
 }
 #benefits .overlay {
