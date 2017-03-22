@@ -147,6 +147,10 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .section-title p {
 	font-size: 22px;
 	color: rgba(255,255,255,0.8);
+	text-align: center;
+	text-anchor: middle;
+	padding-left: 500px;
+	padding-right: 500px;
 }
 .section-title hr {
 	margin: 0 auto;
