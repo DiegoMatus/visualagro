@@ -435,7 +435,7 @@ ol.type li a:hover {
 	margin: 5px 0;
 }
 #benefits img {
-	width: 280px;
+	width: auto;
 }
 #benefits .thumbnail {
 	background: transparent;
