@@ -202,6 +202,9 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
+header .cintillo {
+	background-color: rgba(114, 164, 17,0.3);
+}
 /* About Section */
 #about {
 	padding: 120px 0;
