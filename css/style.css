@@ -556,7 +556,11 @@ color: #777;
 /* Footer Section*/
 #footer {
 	background: #262626;
-	padding: 90px 0 0 0;
+	padding: 0 0 0 0;
+}
+#footer h1{
+
+	color:black;
 }
 #footer h3 {
 	color: #8eb640;
@@ -566,10 +570,10 @@ color: #777;
 	margin-bottom: 20px;
 }
 #footer .copyrights {
-	padding: 80px 0;
-	margin-top: 20px;
+	padding: 90px 0;
+	margin-top: 0px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#779936+0,8eb640+50 */
-	background: rgb(119,153,54); /* Old browsers */
+	background: rgb(114,164,17); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(119,153,54,1) 0%, rgba(142,182,64,1) 50%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(119,153,54,1) 0%, rgba(142,182,64,1) 50%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(119,153,54,1) 0%, rgba(142,182,64,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -593,7 +597,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 }
 #footer p {
 	font-size: 15px;
-	color: rgba(255,255,255,0.9)
+	color: rgba(255,255,255,0.7)
 }
 #footer a {
 	color: #f6f6f6;
