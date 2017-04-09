@@ -289,7 +289,7 @@ header .cintillo {
  #about2 .cintillo p{
 	background-color: rgba(114,164,17,0.2);
 	font-size: 24px;
-	
+
 }
 /* Portfolio Section */
 #what-do-us .section-title {
@@ -410,10 +410,12 @@ ol.type li a:hover {
 	color: #fff;
 	background: #444 url(../img/team-bg2.JPG) center top no-repeat fixed;
 	background-size: cover;
+	
 }
 #benefits .overlay {
 	padding: 110px 0 80px 0;
 	background: rgba(0, 0, 0, 0.6);
+	
 }
 #benefits h2, #benefits p {
 	color: #fff;
