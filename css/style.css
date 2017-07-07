@@ -1,3 +1,8 @@
+*{
+
+	/*border: 1px solid red;*/
+}
+
 body, html {
 	font-family: 'Raleway', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -138,13 +143,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: #FFF;
 }
 
-#about2 .overlay {
-	padding: 150px 0 150px 0;
-	background: rgba(0, 0, 0, 0.7);
+#what-do-us {
+	padding: 100px 0 100px 0;
 }
-#what-do-us .overlay {
-	padding: 100px 0 350px 0;
-}
+
+.img-center {margin:0 auto;}
+
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
@@ -181,7 +185,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro h1 {
 	font-family: 'Dancing Script', cursive;
 	color: #fff;
-	font-size: 10em;
+	font-size: 5em;
 	font-weight: 700;
 	margin-top: 0;
 	margin-bottom: 10px;
@@ -236,9 +240,16 @@ header .cintillo {
 
 
 /* Menu Section */
-#about2 .section-title {
-	background: #444 url(../img/menu-bg2.jpg) center center no-repeat fixed;
+#about2 {
+	background: url(../img/menu-bg2.jpg) center center no-repeat fixed ;
 	background-size: cover;
+	padding: 0px;
+}
+#about2 .overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	padding-bottom: 150px; 	
+	padding-top: 150px;
 }
 #about2 .section-title h2 {
 	color: #fff;
@@ -264,6 +275,7 @@ header .cintillo {
 	color: #444;
 	margin: 20px 0;
 	text-align: center;
+
 }
 #about2 .menu-item {
 	margin: 35px 0;
@@ -289,7 +301,8 @@ header .cintillo {
  #about2 .cintillo p{
 	background-color: rgba(114,164,17,0.2);
 	font-size: 24px;
-
+	color: #fff;
+	font-weight: bold;
 }
 /* Portfolio Section */
 #what-do-us .section-title {
@@ -408,14 +421,19 @@ ol.type li a:hover {
 /* Team Section */
 #benefits {
 	color: #fff;
-	background: #444 url(../img/team-bg2.JPG) center top no-repeat fixed;
+	width: 100%;
+	background: url(../img/team-bg2.JPG) center top no-repeat fixed;
 	background-size: cover;
-	
+	-webkit-background-size: cover;
+	-moz-background-size: cover; 
+	padding: 0px;
 }
 #benefits .overlay {
-	padding: 110px 0 80px 0;
-	background: rgba(0, 0, 0, 0.6);
 	
+	background-color: rgba(0, 0, 0, 0.6);
+	background-size: cover;
+	padding-bottom: 150px; 	
+	padding-top: 150px;
 }
 #benefits h2, #benefits p {
 	color: #fff;
